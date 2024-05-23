@@ -1,0 +1,1 @@
+export type url = `https://${string}.${string}`

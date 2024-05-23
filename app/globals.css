@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('../assets/fonts/BRSonoma-Regular.otf'), ;
+}
+
+@font-face {
+    font-family: 'BR Sonoma Semibold ';
+    src: url('../assets/fonts/BRSonoma-SemiBold.otf');
+}
+
+@font-face {
+    font-family: 'BR Sonoma Bold';
+    src: url('../assets/fonts/BRSonoma-Bold.otf');
+}
+
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
